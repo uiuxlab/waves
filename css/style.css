@@ -1,0 +1,30 @@
+.top-header{
+    padding: 40px 0;
+}
+.top-header .logo img{
+    width: 200px;
+}
+.top-header .tagline{
+    margin-top: 10px;
+}
+#main .content .wave{
+	padding: 8px;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px, rgba(0, 0, 0, 0.03) 0px 0px 8px, rgba(0, 0, 0, 0.1) 0px 20px 30px;
+    height: 290px;
+    margin-bottom: 30px;
+}
+#main .content .wave svg{
+	width: 100%;
+	border-radius: 14px;
+}
+#main .content .copy-svg{
+    position: absolute;
+    top: 26px;
+    right: 40px;
+    cursor: pointer;
+}
+#main .content .copy-svg img{
+	width: 24px;
+}

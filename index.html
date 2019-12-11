@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Make Waves</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+
+	<header class="top-header">
+		<div class="container">
+			<div class="logo"><img src="images/uiuxlab-logo.png"></div>
+			<div class="tagline">A Collection of handcrafted waves just copy and use it.</div>
+		</div>
+	</header>
+
+	<section id="main">
+		<div class="container">
+			<div class="content">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="wave" id="copysvg0">
+							<svg version="1.1" x="0px" y="0px" viewBox="0 0 1920 946.2" style="enable-background:new 0 0 1920 946.2;"
+							xml:space="preserve">
+							<style type="text/css">
+								.st0{fill:#1FA022;}
+							</style>
+							<defs>
+							</defs>
+							<g>
+								<path class="st0" d="M0,828.2c69.9,52.3,247,160,361.6,13.4c145.5-186,315-294,519-129s303-201.2,562.5-172.6
+								c197.4,21.7,295,388.9,476.9,406.2V0H0V828.2z"/>
+							</g>
+						</svg>
+						</div>
+
+						<div class="copy-svg" onclick="copyToClipboard('#copysvg0')">
+							<img src="images/copy-icon.svg">
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="wave" id="copysvg1">
+							<svg version="1.1" x="0px" y="0px" viewBox="0 0 1920 767.9" style="enable-background:new 0 0 1920 767.9;"
+							xml:space="preserve">
+							<style type="text/css">
+								.st1{fill:#E8C531;}
+							</style>
+							<defs>
+							</defs>
+							<g>
+								<path class="st1" d="M0,699.1c108.1,64.7,239,100.7,337.1-6.7c200.5-219.5,228.2-184.1,435.6-8.5s218.5,41.5,434.2-89
+								s398.3,242.7,526.9,112.2c74.7-75.8,135.9-129.8,186.2-140V0H0V699.1z"/>
+							</g>
+						</svg>
+						</div>
+
+						<div class="copy-svg" onclick="copyToClipboard('#copysvg1')">
+							<img src="images/copy-icon.svg">
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="wave" id="copysvg2">
+							<svg version="1.1" x="0px" y="0px" viewBox="0 0 1922 1036.5" style="enable-background:new 0 0 1922 1036.5;"
+							xml:space="preserve">
+							<style type="text/css">
+								.st2{fill:#0637C0;}
+							</style>
+							<defs>
+							</defs>
+							<g>
+								<path class="st2" d="M0,1036.5c19.5-54.8,50.2-117,95.1-149.1c91.1-65.1,120.7-81.7,142.7-211.2S331.9,374.5,495.1,468
+								s240.8,2.1,320.1-50s169.6-31.4,203.9,83.5c34.3,114.9,70.2,214.3,234.9,142.5c164.8-71.9,275.2-36,334.7,156.2
+								c58.5,174.1,250.6,74.2,333.2,10.5V0H0V1036.5z"/>
+							</g>
+						</svg>
+						</div>
+
+						<div class="copy-svg" onclick="copyToClipboard('#copysvg2')">
+							<img src="images/copy-icon.svg">
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="wave" id="copysvg3">
+							<svg version="1.1" x="0px" y="0px" viewBox="0 0 1920 846.4" style="enable-background:new 0 0 1920 846.4;"
+							xml:space="preserve">
+							<style type="text/css">
+								.st3{fill:#F5861F;}
+							</style>
+							<defs>
+							</defs>
+							<g>
+								<path class="st3" d="M0,720.8c87.1,36.1,290.4,107.6,408.1,46.3c152.7-79.5,255.6-54,451.8,23.9s298.1,72,484.7-8
+								c178.7-76.7,404.8-117.7,575.5-126.6V0H0V720.8z"/>
+							</g>
+						</svg>
+						</div>
+
+						<div class="copy-svg" onclick="copyToClipboard('#copysvg3')">
+							<img src="images/copy-icon.svg">
+						</div>
+					</div>
+					
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+<script type="text/javascript">
+function copyToClipboard(element) {
+ var $temp = $("<input>");
+ $("body").append($temp);
+ $temp.val($(element).html()).select();
+ document.execCommand("copy");
+ $temp.remove();
+}
+</script>
+</body>
+</html>
